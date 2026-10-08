@@ -1,0 +1,13 @@
+# Local virtualenv used to run tools/enhance_print.py
+.venv/
+venv/
+
+# Enhanced output images are generated artifacts -- keep them out of Git
+output/
+out/
+*.enhanced.png
+*.enhanced.jpg
+
+# Python
+__pycache__/
+*.py[cod]
